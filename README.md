@@ -10,7 +10,6 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-ZERO-orange.svg)
 ![Threading](https://img.shields.io/badge/threading-SUPPORTED-brightgreen.svg)
-
 [![Status](https://img.shields.io/badge/Status-Stable-brightgreen)](https://github.com/yourusername/py-readonlyx)
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/yourusername/py-readonlyx)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)](https://github.com/yourusername/py-readonlyx)
