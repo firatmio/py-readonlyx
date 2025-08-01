@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-readonlyx"
+version = "1.0.0"
+description = "Lightweight Python Read-Only Property Decorator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "py-readonlyx", email = "info@py-readonlyx.com"},
+]
+keywords = ["readonly", "property", "decorator", "immutable", "python"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/py-readonlyx"
+"Bug Tracker" = "https://github.com/yourusername/py-readonlyx/issues"
+Repository = "https://github.com/yourusername/py-readonlyx"
+Documentation = "https://github.com/yourusername/py-readonlyx#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["py_readonlyx*"]
+exclude = ["tests*"]
